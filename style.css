@@ -486,6 +486,7 @@ nav ul li {
 
 
 /* -------------------- RESPONSIVE STYLES -------------------- */
+/* ----------------- RESPONSIVE DESIGN ------------------ */
 @media (max-width: 991px) {
   nav {
     flex-direction: column;
@@ -495,18 +496,16 @@ nav ul li {
 
   nav ul {
     flex-direction: column;
-    gap: 10px;
-    width: 100%;
+    gap: 12px;
     margin-top: 10px;
   }
 
   nav ul li {
-    color: white;
     font-size: 1rem;
   }
 
   .left img {
-    width: 250px;
+    width: 220px;
   }
 
   .hero-first-text-content h1 {
@@ -519,32 +518,32 @@ nav ul li {
 
   .features,
   .testimonial-cards,
-  .gallery-grid,
   .location-info,
   .contact-container,
   .about-container {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .feature-box,
   .testimonial-card,
-  .about-image img,
-  .about-text,
   .address-box,
   .map-container,
-  .contact-info,
-  .contact-form {
-    width: 100% !important;
+  .about-text,
+  .about-image img,
+  .contact-form,
+  .contact-info {
+    width: 100%;
     max-width: 100%;
+  }
+
+  .about-image img {
+    max-width: 90%;
   }
 
   .cta-content h2 {
     font-size: 2rem;
-  }
-
-  .cta-content p {
-    font-size: 1rem;
   }
 
   .gallery-grid {
@@ -553,20 +552,7 @@ nav ul li {
 
   .many-more-box {
     height: 200px;
-    font-size: 1.2rem;
-  }
-
-  .about-text h2 {
-    font-size: 2.2rem;
-    text-align: center;
-  }
-
-  .about-image img {
-    max-width: 90%;
-  }
-
-  .contact-info h2 {
-    font-size: 2.2rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -579,9 +565,27 @@ nav ul li {
     font-size: 0.95rem;
   }
 
-  .cta-btn,
-  .btn-submit {
-    padding: 12px 20px;
+  .btn-submit,
+  .cta-btn {
+    padding: 12px 24px;
     font-size: 0.9rem;
+  }
+
+  .contact-info h2,
+  .about-text h2 {
+    font-size: 2rem;
+  }
+
+  .highlight-box {
+    padding: 16px;
+    font-size: 0.95rem;
+  }
+
+  .left img {
+    width: 180px;
+  }
+
+  nav ul li {
+    font-size: 0.95rem;
   }
 }
